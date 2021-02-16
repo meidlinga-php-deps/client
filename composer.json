@@ -9,6 +9,12 @@
             "email": "norbert@orzechowicz.pl"
         }
     ],
+    "repositories": [
+	    {
+		    "type": "vcs",
+		    "url": "https://github.com/meidlinga/ApplicationInsights-PHP"
+	    }
+    ],
     "autoload": {
         "psr-4": {
             "AppInsightsPHP\\Client\\": "src/AppInsightsPHP/Client/"
@@ -21,7 +27,7 @@
     },
     "require": {
         "php": "^7.3 || ^8.0",
-        "microsoft/application-insights": "^0.4.5",
+        "microsoft/application-insights": "dev-master#0.4.7",
         "guzzlehttp/guzzle": "^6.0",
         "psr/simple-cache": "^1.0",
         "psr/log": "^1.1"
